@@ -1,0 +1,30 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.footer{
+    background-color: lighten(v.$grisClaro, 7%);
+    border-top: 1px solid v.$grisClaro;
+    padding-top: 5rem;
+    &__grid{
+        @include m.tablet{ 
+            @include m.grid(2, 2rem);
+        }
+
+        @include m.desktop{
+            @include m.grid(4, 2rem);
+        }
+    }
+
+    &__heading{
+        text-transform: uppercase;
+        font-size: 1.2rem;        
+    }
+
+    &__enlace{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.4rem;
+        color: v.$gris;
+        margin-bottom: 1rem;
+    }
+}
