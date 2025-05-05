@@ -6,7 +6,7 @@ AirBNB is a *study project* developed as part of a front-end learning journey. I
 
 ## 🔗 Live Preview
 
-[👉 View the Demo on Netlify](https://airbnb-juligeraldev.netlify.app/)
+[👉 View the Demo on Netlify](https://bnb-juligeraldev.netlify.app/)
 
 ## ✨ Features
 
